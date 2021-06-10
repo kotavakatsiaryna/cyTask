@@ -1,1 +1,8 @@
-{}
+{
+  "integrationFolder": "cypress/integration/cytests",
+  "baseUrl": "https://store.google.com/us",
+  "defaultCommandTimeout": 200000,
+  "env": {
+    "cartReloadTimeout": 5000
+  }
+}
